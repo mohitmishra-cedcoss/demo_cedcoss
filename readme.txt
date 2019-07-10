@@ -15,6 +15,9 @@ It allows the merchant to sell the gift card on their store and manage everythin
 
 == Description ==
 
+This is testing and it will create the test.
+
+
 This **Giftware - WooCommerce Gift Card Lite** plugin is the ultimate gift card plugin that allows the merchant to sell the Gift Card on their store and manage everything from the selling of Gift Card to its use. This comes with multiple gifts WooCommerce templates which fits with every yearly event. 
 
 For instance, if you want to know about valentines day gift cards or any other events and certainly  want to implement, you have got something for you. 
