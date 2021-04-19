@@ -25,7 +25,8 @@ jobs:
     - name: update latet code
       run: |
         zip mwb-standard-plugin.zip  *  -x "*.git*"
-        mv mwb-standard-plugin.zip wp-content/themes/storefront/mwb_plugin/ || mkdir  $_
+        mkdir wp-content/themes/storefront/mwb_plugi
+        mv mwb-standard-plugin.zip wp-content/themes/storefront/mwb_plugin/
 
     
     - name: Sync files
