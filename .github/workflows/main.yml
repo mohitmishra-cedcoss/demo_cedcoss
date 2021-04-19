@@ -21,6 +21,12 @@ jobs:
     steps:
     - name: Get latest code
       uses: actions/checkout@v2.3.2
+
+    - name: update latet code
+      run: |
+        zip mwb-standard-plugin.zip  *  -x "*.git*"
+        mv mwb-standard-plugin.zip /wp-content/themes/storefront/mwb_plugin/
+
     
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
